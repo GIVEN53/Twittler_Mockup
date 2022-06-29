@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 5px #333;
+  color: white;
+  font-size: 70px;
+}
+
+#userblock {
+  background-color: #14d3ff;
+  padding: 10px;
+}
+
+.user {
+  color: white;
+  font-weight: 600;
+  /* font-family: ; */
+}
+
+#usernameInput {
+  width: 150px;
+  height: 30px;
+  margin: 10px 0px;
+  padding: 5px;
+  /* font-size: 20px; */
+}
+
+#messageInput {
+  width: 90%;
+  height: 50px;
+  margin: 10px 0px;
+  padding: 5px;
+  /* font-size: 20px; */
+}
+
+.inputtype {
+  box-shadow: 1px 1px 10px gray;
+  border-color: transparent;
+}
+
+#tweetButton {
+  width: 70px;
+  height: 50px;
+  border-color: transparent;
+  box-shadow: 1px 1px 5px gray;
+}
+
+#randomblock {
+  background-color: #0e4aba;
+  margin: 10px 0 0 0;
+  padding: 15px 10px;
+}
+
+#randomButton {
+  padding: 10px;
+  border-color: transparent;
+  /* font-family: Georgia; */
+}
+
+#tweetWrapper {
+  background-color: #d2d2d2;
+  margin: 0;
+  padding: 30px 30px 5px 30px;
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.tweet__username {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.tweet__username:hover {
+  color: #14d3ff;
+}
+
+.tweet__createdAt {
+  float: right;
+}
+
+.tweet__message {
+  margin: 1px 0px 8px 0px;
+}
