@@ -1,0 +1,11 @@
+#randomWrap {
+  background-color: #0e4aba;
+  margin: 10px 0 0 0;
+  padding: 15px 10px;
+}
+
+#randomButton {
+  padding: 10px;
+  border-color: transparent;
+  /* font-family: Georgia; */
+}
